@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/iyjys386eqbq/public_html
+    - /bin/cp -R dist/* $DEPLOYPATH/
+    - /bin/chmod -R 755 $DEPLOYPATH/
